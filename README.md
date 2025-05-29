@@ -1,17 +1,35 @@
-#Gender Classification Model
-Tools Used: Python, Scikit-learn, Pandas, NumPy, Matplotlib
-#Overview:
-This project focuses on building a machine learning model to classify gender based on voice data features. The process involved data preprocessing, feature selection, and training various classification algorithms to evaluate performance.
+# Gender Classification Model
 
-#Key Highlights:
+## Overview
+This project involves building a machine learning model to classify gender based on voice data features. The process includes data preprocessing, feature engineering, training various classifiers, and evaluating their performance.
 
-Implemented and compared models including Logistic Regression, K-Nearest Neighbors, and Support Vector Machine (SVM).
+## Tools & Libraries
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
 
-Evaluated model performance using accuracy, confusion matrix, and classification report.
+## Project Highlights
+- Explored and cleaned voice feature dataset for optimal model performance.
+- Applied multiple classification algorithms including:
+  - Logistic Regression  
+  - K-Nearest Neighbors (KNN)  
+  - Support Vector Machine (SVM)
+- Used feature scaling and hyperparameter tuning to improve results.
+- Evaluated models using:
+  - Accuracy Score  
+  - Confusion Matrix  
+  - Classification Report
+- Visualized key performance metrics and data distributions.
 
-Achieved high accuracy through hyperparameter tuning and feature scaling.
+## Results
+The models demonstrated strong performance in predicting gender from voice features. Support Vector Machine and Logistic Regression showed particularly high accuracy, especially after tuning.
 
-Visualized data distributions and model results for clear interpretation.
+## Conclusion
+This project showcases the application of supervised learning for binary classification using real-world voice data. It demonstrates strong foundational skills in data preprocessing, modeling, and evaluation.
 
-#Outcome:
-A robust classification model capable of predicting gender from voice input features with impressive accuracy and generalizability.
+---
+
+Feel free to clone this repository, run the notebook, and explore how machine learning can be applied to voice-based gender classification.
+
